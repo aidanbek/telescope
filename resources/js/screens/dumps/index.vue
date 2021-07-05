@@ -123,7 +123,7 @@
                             Command: {{entry.content.entry_point_description}}
                         </router-link>
 
-                        <span class="text-white text-monospace" style="font-size: 12px;">{{entry.created_at}}</span>
+                        <span class="text-white text-monospace" style="font-size: 12px;">{{localTime(entry.created_at)}}</span>
                     </div>
 
                     <div v-html="entry.content.dump"></div>

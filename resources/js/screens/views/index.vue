@@ -29,7 +29,7 @@
                 {{slotProps.entry.content.composers ? slotProps.entry.content.composers.length : 0}}
             </td>
 
-            <td class="table-fit">{{slotProps.entry.created_at}}</td>
+            <td class="table-fit">{{localTime(slotProps.entry.created_at)}}</td>
 
             <td class="table-fit">
                 <router-link :to="{name:'view-preview', params:{id: slotProps.entry.id}}" class="control-action">

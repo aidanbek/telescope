@@ -28,7 +28,7 @@
             </td>
 
             <td class="table-fit"  :title="slotProps.entry.created_at">
-                {{slotProps.entry.created_at}}
+                {{localTime(slotProps.entry.created_at)}}
             </td>
 
             <td class="table-fit">
