@@ -30,6 +30,7 @@ return [
     */
 
     'path' => env('TELESCOPE_PATH', 'telescope'),
+    'router_path' => env('TELESCOPE_ROUTER_PATH', 'telescope'),
 
     /*
     |--------------------------------------------------------------------------

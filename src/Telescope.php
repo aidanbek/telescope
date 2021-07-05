@@ -729,7 +729,7 @@ class Telescope
     public static function scriptVariables()
     {
         return [
-            'path' => config('telescope.path'),
+            'path' => config('telescope.router_path'),
             'timezone' => config('app.timezone'),
             'recording' => ! cache('telescope:pause-recording'),
         ];
